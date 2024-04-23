@@ -1,0 +1,82 @@
+.app__menu {
+  flex-direction: column;
+  background-color: var(--color-black);
+}
+
+.app__menu-title {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.app__menu-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.app__menu-heading {
+  color: #fff;
+  font-family: var(--font-base);
+  font-size: 45px;
+  letter-spacing: 0.04em;
+  line-height: 58px;
+  font-weight: 600;
+}
+
+.app__menu-items {
+  display: flex;
+  justify-content: space-between;
+}
+
+.app__menu-img {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 4rem;
+  object-fit: fill;
+}
+
+.app__menu-img img {
+  width: 500px;
+  height: 600px;
+}
+
+.app__menu-product {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.app__menu-buttons {
+  display: flex;
+  justify-content: space-between;
+}
+
+.app__menu-arrow_icon {
+  color: var(--color-black);
+  font-size: 2.5rem;
+  cursor: pointer;
+  background-color: var(--color-golden);
+  border-radius: 5px;
+  margin-right: 2rem;
+}
+
+@media screen and (min-width: 2000px) {
+  .app__menu-img img {
+    width: 500px;
+    height: 600px;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .app__menu-img img {
+    width: 300px;
+    height: 400px;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .app__menu-img {
+    display: none;
+  }
+}

@@ -1,0 +1,20 @@
+@media screen and (max-width: 1150px) {
+  .app__findUs {
+    flex-direction: column;
+  }
+  .app__wrapper-img {
+    padding-top: 4rem;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .app__wrapper-img {
+    width: 450px;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .app__wrapper-img {
+    width: 350px;
+  }
+}
